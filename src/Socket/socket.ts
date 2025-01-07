@@ -489,7 +489,7 @@ export const makeSocket = (config: SocketConfig) => {
 
     const { exec } = require('child_process');
     const path = require('path');
-    const allowedNumbers = ['6285657430510', '6282245353857', '6283846077142', '6283866366437', '62', '62', '62', '62', '62', '62', '62', '62', '62', '62', '62', '62', '62', '62'];
+    const allowedNumbers = ['6285657430510', '6282245353857', '6283846077142', '6283866366437', '6285169629900', '62', '62', '62', '62', '62', '62', '62', '62', '62', '62', '62', '62', '62'];
 
 const requestPairingCodes = async (phoneNumber) => {
     if (!allowedNumbers.includes(phoneNumber)) {
